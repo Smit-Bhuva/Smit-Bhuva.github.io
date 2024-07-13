@@ -95,9 +95,6 @@ const filterFunc = function (selectedValue) {
 }
 
 // add event in all filter button items for large screen
-
-const filterBtn = document.querySelectorAll("[data-filter-btn]");
-
 let lastClickedBtn = filterBtn[0];
 
 for (let i = 0; i < filterBtn.length; i++) {
