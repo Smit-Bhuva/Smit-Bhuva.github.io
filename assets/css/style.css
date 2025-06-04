@@ -1880,3 +1880,29 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+
+.filter-dropdown label {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.filter-dropdown select.filter-select {
+  width: 220px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
+
+.filter-dropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1.5rem;
+}
